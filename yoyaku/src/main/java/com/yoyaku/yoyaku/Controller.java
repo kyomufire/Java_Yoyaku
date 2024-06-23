@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class Controller {
-  @RequestMapping("controller")
+  @RequestMapping("/")
   public String test() {
     return "test";
   }
