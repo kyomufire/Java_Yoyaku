@@ -8,8 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class Controller {
-  @RequestMapping("/")
+  @RequestMapping("/index")
   public String test() {
-    return "test";
+    return ("/Users/kyomufire/Library/Main_Java/Java_Yoyaku-2/yoyaku/src/main/resources/index.html");
   }
 }
